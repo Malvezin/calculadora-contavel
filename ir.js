@@ -1,4 +1,5 @@
-const salarioBase = 3000
+function Ir(){
+const salarioBase = parseFloat(document.getElementById("inputSalario").value)
 let ir = 0
 
 if(salarioBase < 5000){
@@ -10,4 +11,5 @@ if(salarioBase < 5000){
     ir = salarioBase * 0.275 - 908.73
 }
 
-console.log(ir)
+document.getElementById("resultadoIr").textContent = "IR: R$ " + ir
+}

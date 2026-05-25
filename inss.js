@@ -15,5 +15,5 @@ function calcularINSS() {
       inss = 988.10
   }
 
-  document.getElementById("resultado").textContent = "INSS: R$ " + inss.toFixed(2)
+  document.getElementById("resultadoInss").textContent = "INSS: R$ " + inss.toFixed(2)
 }

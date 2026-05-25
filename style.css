@@ -70,7 +70,8 @@ button:hover {
   background-color: #245a8c;
 }
 
-#resultado {
+#resultadoInss,
+#resultadoIr {
   margin-top: 1.2rem;
   font-size: 1rem;
   color: #333;
