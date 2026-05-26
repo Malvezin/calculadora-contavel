@@ -11,5 +11,4 @@ if(salarioBase < 5000){
     ir = salarioBase * 0.275 - 908.73
 }
 
-document.getElementById("resultadoIr").textContent = "IR: R$ " + ir
 }
